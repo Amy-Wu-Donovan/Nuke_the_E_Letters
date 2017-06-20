@@ -1,0 +1,42 @@
+body {
+    font-family: "Calibri", "Myriad Pro", sans-serif;
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.coolArea {
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+input {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.nukedPlace {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    font-size: 14px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 300px) {
+    input {
+        width: 80%;
+    }
+}

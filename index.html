@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nuke the E's!</title>
+    <meta charset="utf-8"/>
+	<link rel='stylesheet' href='style.css'/>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Nuke the E's!</h1>
+        <h2>A program where you can remove all the E's in any line of text you submit~.</h2>
+    </header>
+    <div class="coolArea">
+        <p>Insert your lines of text here to be nuked:</p>
+        <form name="userform" action="javascript:void(0);">
+            <input type="text" id="inputbox" value="" name="userinput" required>
+        </form>
+        <button type="submit" onclick="dude()" id="nukeit">Nuke 'em!</button>
+        <div>
+            <p class="nukedPlace">Your nuked text goes here.</p>
+        </div>
+    </div>
+    <footer>
+    <p class="disclaimer">Site (hastily composed) by Amy Wu Donovan</p>
+    </footer>
+</body>
+</html>
